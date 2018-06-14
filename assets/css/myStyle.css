@@ -1,0 +1,703 @@
+body {
+	font-family: "helvecia";
+    padding : 2em ;
+	overflow: visible;
+	min-height: inherit;
+	margin-left:1em;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : #000;
+  background-color: #fff;
+  padding : 5px 15px;
+  margin-left: 1em;
+}
+
+#nav_pills {
+	padding: .5em .8em;
+	background-color: #fff;
+	border: .1em solid lightblue;
+	border-radius: .5em .5em 0 0 ;
+	margin: .35em;
+	margin-bottom: .2em;
+}
+
+.active #nav_pills {
+	padding: .5em .8em;
+	background-color: lightblue;
+	border-radius: .5em .5em 0 0 ;
+	margin-bottom: .2em;
+}
+
+#tabs_body {
+	padding: 1em;
+	margin: 1em;
+}
+
+.tabs_container {
+	margin: 1em 3em;
+}
+#tab4 {
+    padding: 2em;
+    width:6em;
+}
+
+.home_container {
+	margin: -1.5em 3em 1em 1em;
+}
+
+#index_body {
+	overflow: scroll;
+}
+
+.page1 {
+	padding 0 20em;
+}
+.divider {
+	padding: 0;
+	margin: 0;
+	border-top: .2em solid grey; 
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 4em;
+}
+
+#page1_body,
+#page2_body, 
+#page3_body {
+	margin-top: 3em;
+	color: #000;
+}
+#page5_body {
+	height: 133em;
+}
+
+#use_case_div {
+	margin-top: 7em;
+}
+/* page 4 css */
+#page4_body {
+	height: 54em;
+	padding-right: 	10em;
+	overflow: scroll;
+	margin-top: 3em;
+	color: #000;
+}
+
+#page4_body .footer {
+	height: 3em;
+	margin-bottom: -50em;
+}
+
+#structure_map {
+	height: 15em;
+}
+
+#task_flow_diagram {
+	height: 15em;
+}
+
+.table {
+	border: .15em solid #000;
+}
+#persona_tr {
+	border: .15em solid #000;
+	background-color: grey;
+}
+	
+#scenario_table {
+	width: 92%;
+}
+
+#flower_logo {
+	height: 29px;
+	border-radius: 50%;
+	border: .1em solid #6c757d;
+	margin-top: -.4em;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin: 3em;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 104%;
+  /* Set the fixed height of the footer here */
+  height: 2.5em;
+  padding-top: .4em; /* Vertically center the text there */
+  background-color: #343a40;
+  color: #fff;
+  margin-bottom: -1.6em;
+}
+
+#profile_pic {
+	margin-bottom: 1em;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding: 0 10px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar {
+	padding: 0 4em 0 4em;
+}
+
+#tab1 {
+	margin-top: 3em;
+	margin-left: 2em;
+	padding: 2em;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content { height: 35em; }
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: lightgreen;
+  margin-top: -.5em;
+  height: 101.6%;
+}
+
+.sidenav h4{
+  margin-top: 2em;
+}
+
+#th_1,
+#th_2 {
+	border: .1em solid #000;
+}
+
+#th_2 {
+	border-right: none;
+}
+
+#th_3,
+#th_4 {
+ border-bottom: .1em solid #000;	
+}
+
+#use_case_table, td {
+	border: .1em solid #000;
+}
+
+#use_case_table, tbody, tr, td, ol, li {
+	margin-left: -.7em;
+}
+
+#use_case_uml {
+	margin-top: 0em;
+	align-items: center;
+	height: 30em;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+	height: 37em;
+	padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+
+@media (min-width: 276px) {	
+
+  #index_body {
+	overflow: visible;
+  }
+
+  #page1, h2 {
+	margin-top: 0em;
+	margin-left: .5em;
+  }
+	
+  #logo {
+	height: 15em;	
+  }
+	
+  #page2_body {
+	height: 78em;
+  }
+	
+  #page3_body {
+	height: 130em;
+  }
+
+   /* page 4 css */
+  #page4_body {
+	 height: 224.5em;
+  }
+
+  #structure_map {
+	height: 7em;
+  }
+
+  #task_flow_diagram {
+	height: 6em;
+  }
+
+  #state_transition_diagram {
+	height: 5em
+  }
+
+  .divider2 {
+	margin: .1em 0 0 .1em;
+	border-top: .2em solid grey;
+	color: #000;
+  }
+
+}
+
+@media (min-width: 576px) {
+  #index_body {
+	margin-left: -.5em;
+  } 
+	
+  .sidenav {
+	height: 40.6em;
+	padding: 15px;
+	margin-top: .5em;
+  }
+  .sidenav h4 {
+	margin-top: .1em;
+  }
+  .footer {
+	margin-left: -6em;
+	margin-bottom: -2.5em;
+	width: 114.5%;
+  }
+	
+  #product_definition {
+	margin-left: 10em;
+	height: 10em;
+  }
+	
+  #persona_senario {
+	margin-top: .6em;
+	margin-left: -4em;
+  }
+  #use_case {
+	margin-top: -11em;
+	margin-left: 20em;
+  }
+	
+	#product_design {
+	margin-left: 10em;
+	margin-bottom: .5em;
+  }
+	
+  #page2_body {
+	height: 78em;
+  }
+	
+  #page3_body {
+	height: 130em;
+  }
+
+   /* page 4 css */
+  #page4_body {
+	 height: 93.5em;
+  }
+	
+  #logo,
+  #page1,
+  #page2,
+  #page3 ,
+  #page4,
+  #video {
+	height: 12em;
+  }
+
+  #page1, table, h2 {
+	margin-top: 0em;
+	margin-left: 1em;
+  }
+
+  #structure_map {
+	height: 15em;
+  }
+
+  #task_flow_diagram {
+	height: 11em;
+  }
+
+  #state_transition_diagram {
+	height: 10em
+  }
+
+  .divider2 {
+	margin: .1em 0 0 .1em;
+	border-top: .2em solid grey;
+	color: #000;
+  }
+	
+  #product_definition_table {
+	margin-top: 1em;
+	margin-left: -1em;
+  }
+	
+}
+
+@media (min-width: 746px) {
+  #index_body {
+    margin-left: .5em;
+  } 
+  body {
+	margin-left: 2em;
+  }
+  .sidenav {
+	 height: 40.6em;
+	 padding: 15px;
+	 margin-top: -.5em;
+  }
+  .sidenav h4 {
+	 margin-top: .1em;
+  }
+  .footer {
+	 margin-left: -6em;
+	 margin-bottom: -.5em;
+	 width: 112%;
+  }
+	
+  #product_definition_table {
+	margin-top: -9em;
+	margin-left: -1em;
+  }
+
+  #page1, h2 {
+	margin-left: 0em;
+  }
+	
+  #page2_body {
+	height: 78em;
+  }
+	
+  #page3_body {
+	height: 130em;
+  }
+
+   /* page 4 css */
+  #page4_body {
+	 height: 104.5em;
+  }
+	
+  #logo,
+  #page1,
+  #page2,
+  #page3 ,
+  #page4,
+  #video {
+	height: 11em;
+  }
+
+  #structure_map {
+	height: 19em;
+  }
+
+  #task_flow_diagram {
+	height: 15em;
+  }
+
+  #state_transition_diagram {
+	height: 13em
+  }
+
+  .divider2 {
+	margin: .1em 0 0 -1em;
+	border-top: .2em solid grey;
+	color: #000;
+  }
+	
+  #personal_table {
+	margin-top: 1em;
+  }
+	
+  #goals_table {
+	margin-top: 1em;
+  }
+	
+  #scenario_table {
+	margin-top: 1em;
+  }
+	
+}
+
+@media (min-width: 939px) {
+  body {
+	margin-left: 6em;
+  }
+  .sidenav {
+	overflow: scroll;
+	height: 43em;
+	padding: 15px;
+	margin-top: -.5em;
+  }
+  .sidenav h4 {
+	margin-top: .1em;
+  }
+  .footer {
+	margin-left: -6em;
+	margin-bottom: 0em;
+  }
+
+  #product_definition_table {
+	margin-top: -13em;
+	margin-left: -1em;
+  }
+	
+  #page2_body {
+	height: 77em;
+  }
+	
+  #page3_body {
+	height: 130em;
+  }
+	
+  #page4_body {
+	height: 113.5em;
+  }
+	
+  #logo,
+  #page1,
+  #page2,
+  #page3 ,
+  #page4,
+  #video {
+	height: 15em;
+  }
+
+  #structure_map {
+	height: 22em;
+  }
+
+  #task_flow_diagram {
+	height: 18em;
+  }
+
+  #state_transition_diagram {
+	height: 16em
+  }
+
+  .divider2 {
+	margin: .1em 0 0 -3em;
+	border-top: .2em solid grey;
+	color: #000;
+  }
+	
+  
+	#persona_tr { 
+      margin-top: 1.5em;
+	}
+	
+	#goals_table {
+		margin-top: 1em;
+	}
+	
+	#scenario_table {
+		margin-top: 1em;
+	}
+	
+}
+
+@media (min-width: 1259px) {
+	body {
+		margin-left: 6em;
+	}
+	#index_body {
+		overflow: hidden;
+		height: 36.5em;
+	}
+	.sidenav {
+	    height: 36.2em;
+	    padding: 15px;
+		margin-top: -.5em;
+    }
+	.sidenav h4 {
+		margin-top: .1em;
+	}
+
+    #product_definition_table {
+	  margin-top: -16em;
+	  margin-left: -1em;
+    }
+
+    #page4_body .footer {
+	    height: 3em;
+	    margin-bottom: -40em;
+    }
+	.footer {
+		margin-left: -6em;
+		margin-bottom: 0em;
+	}
+	
+	#page3_body {
+	    height: 128em;
+	}
+
+    /* page 4 css */
+    #page4_body {
+	    height: 101.5em;
+    }
+	
+	#page2_body {
+		height: 45em;
+	}
+	
+    #logo,
+    #page1,
+    #page2,
+    #page3 ,
+    #page4,
+    #video {
+	  height: 17em;
+    }
+
+    #structure_map {
+	  height: 22em;
+    }
+
+    #task_flow_diagram {
+	  height: 19em;
+    }
+
+    #state_transition_diagram {
+	  height: 20em
+    }
+
+    .divider2 {
+	  margin: .1em 0 0 -3em;
+	  border-top: .2em solid grey;
+	  color: #000;
+    }
+
+    .scenario {
+	  margin-top: .5em;
+	  margin-left: -.5em;
+    }
+	
+	#personal_table {
+		margin-top: 1em;
+	}
+	
+	#goals_table {
+		margin-top: 1em;
+	}
+	
+	#scenario_table {
+		margin-top: 1em;
+	}
+	
+}
+
+@media (min-width: 1559px) {
+	body {
+		margin-left: 6em;
+	}
+	#index_body {
+		overflow: hidden;
+		height: 36.5em;
+	}
+	.sidenav {
+	    height: 36.2em;
+	    padding: 15px;
+		margin-top: -.5em;
+    }
+	.sidenav h4 {
+		margin-top: .1em;
+	}
+
+    #product_definition_table {
+	  margin-top: -16em;
+	  margin-left: -1em;
+    }
+
+    #page4_body .footer {
+	    height: 3em;
+	    margin-bottom: -40em;
+    }
+	.footer {
+		margin-left: -6em;
+		margin-bottom: 0em;
+	}
+	
+	#page3_body {
+	    height: 128em;
+	}
+
+    /* page 4 css */
+    #page4_body {
+	    height: 101.5em;
+    }
+	
+	#page2_body {
+		height: 45em;
+	}
+	
+    #logo,
+    #page1,
+    #page2,
+    #page3 ,
+    #page4,
+    #video {
+	  height: 17em;
+    }
+
+    #structure_map {
+	  height: 20em;
+    }
+
+    #task_flow_diagram {
+	  height: 19em;
+    }
+
+    #state_transition_diagram {
+	  height: 20em
+    }
+
+    .divider2 {
+	  margin: .1em 0 0 -3em;
+	  border-top: .2em solid grey;
+	  color: #000;
+    }
+
+    .scenario {
+	  margin-top: .5em;
+	  margin-left: -.5em;
+    }
+	
+	#personal_table {
+		margin-top: 1em;
+	}
+	
+	#goals_table {
+		margin-top: 1em;
+	}
+	
+	#scenario_table {
+		margin-top: 1em;
+	}
+	
+}
+

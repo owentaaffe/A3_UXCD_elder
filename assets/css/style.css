@@ -1,0 +1,264 @@
+body {
+	font-family: "helvecia";
+    padding : 2em;
+	overflow: visible;
+	min-height: inherit;
+	margin-left: 1em;
+	margin-top: -1em;
+}
+
+.orange {
+	margin-top: .8em;
+	color: #f15a24;
+	text-shadow: 2px 2px gray;
+	font-size: 3.5em;
+}
+
+.center {
+	text-align: center;
+}
+
+#elder_logo,
+#team_profile,
+#profile_pic,
+#use_case_uml,
+#wireframe_img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#video_div {
+	margin-top: -1em;
+}
+
+video {
+	height: 100%;
+	margin-left: -3em;
+}
+
+#nav_pills {
+	padding: .5em;
+	background-color: #fff;
+	border: .1em solid #f15a24;
+	border-radius: .5em .5em 0 0 ;
+	margin-top: 0em;
+	margin-bottom: .2em;
+	height: 2em;
+	width: 8em;
+	font-size: 1.7em;
+	font-weight: bolder;
+	color: #f15a24;
+	text-align: center;
+	line-height: .7em;
+}
+
+#profile_div {
+	margin-bottom: 3em;
+}
+
+.active #nav_pills {
+	padding: .5em;
+	background-color: #f15a24;
+	border-radius: .5em .5em 0 0 ;
+	margin-bottom: .2em;
+	color: #fff;
+}
+
+#tabs_body {
+	padding: 1em 0;
+	margin-right: 0em;
+	margin-left: 1em;
+}
+
+.tabs_container {
+	margin: 1em 2em;
+}
+
+#tab4 {
+    padding: 2em;
+    width:6em;
+}
+
+#team_header {
+	margin: 1em 0;
+}
+
+#elder_flower_logo {
+	height: 6em;
+	float: right;
+}
+
+#elder_logo {
+	height: 25em;
+}
+
+#team_profile {
+	height: 15em;
+	border-radius: 50%;
+	box-shadow: 1em 1em 1em grey;
+}
+
+.table {
+	border: .15em solid #000;
+}
+
+#th_1,
+#th_2 {
+	border: .1em solid #000;
+}
+
+#th_2 {
+	border-right: none;
+}
+
+#th_3,
+#th_4 {
+    border-bottom: .1em solid #000;	
+}
+
+#persona_div {
+	margin-top: -2em;
+}
+
+#use_case_table, td {
+	border: .1em solid #000;
+}
+
+#use_case_table, tbody, tr, td, ol, li {
+	margin-left: -.7em;
+}
+
+#use_case_table1,
+#table_use_case {
+	margin-top: 3em;
+	border-top: .1em solid #000;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#table_use_case {
+	border-top: .2em solid #000;
+}
+
+.use_case_div {
+   margin-left: 2em;	
+}
+
+.home_container {
+	margin: -1.5em 3em 1em 1em;
+}
+
+.page1 {
+	margin-top: 3em;
+	margin-left: -12em;
+}
+
+#product_definition_table {
+	border: .2em solid lightgray;
+	box-shadow: 5px 5px 3px grey;
+}
+
+#persona_tr {
+	background-color: lightgray;
+}
+
+#page2,
+#page3,
+#page4,
+#video {
+	margin-top: 4em;
+}
+
+#personal_table,
+#goals_table,
+#scenario_table {
+    margin-top: 3em;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#use_case_div {
+	margin-left: 3em;
+}
+
+#use_case_uml {
+	width: 90%;
+	border: .2em solid lightgray;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.divider2 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	height: .1em;
+	border: .1em solid lightgray;
+}
+
+#structure_map {
+	width: 95.5%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#profile_pic {
+	height: 20em;
+	border: .1em solid grey;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#task_flow_diagram {
+	width: 95%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+#state_transition_diagram {
+	width: 95%;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.spacer {
+	margin-bottom: 3em;
+}
+
+
+
+@media (min-width: 876px) {	
+  
+
+  video {
+	height: 100%;
+	margin-left: 0em;
+  }	
+	
+  #use_case_uml {
+	width: 60%;
+	border: .2em solid lightgray;
+	box-shadow: 10px 10px 5px grey;
+  }
+
+}
+
+
+
+@media (min-width: 1096px) {	
+  video {
+	height: 100%;
+	margin-left: -3em;
+  }	
+	
+  #nav_pills {
+	padding: .5em;
+	background-color: #fff;
+	border: .1em solid #f15a24;
+	border-radius: .5em .5em 0 0 ;
+	margin-top: -2em;
+	margin-bottom: .2em;
+	height: 2em;
+	width: 8em;
+	font-size: 1.7em;
+	font-weight: bolder;
+	color: #f15a24;
+	text-align: center;
+	line-height: .7em;
+  }
+}
+
+
